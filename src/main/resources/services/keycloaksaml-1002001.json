@@ -1,0 +1,8 @@
+{
+   "@class" : "org.apereo.cas.support.saml.services.SamlRegisteredService",
+   "serviceId" : "http://114.115.146.36:8080/auth/realms/quickstart",
+   "name" : "Keycloak saml",
+   "id" : 1002001,
+   "evaluationOrder" : 5,
+   "metadataLocation" : "/etc/cas/config/samlmeta-quick.xml"
+}
