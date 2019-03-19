@@ -1,0 +1,12 @@
+ {
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "http://114.115.146.36:8090/app1",
+  "name" : "app1",
+  "id" : 1100001,  
+  accessStrategy" : {
+    "@class" : "org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy",
+    "enabled" : true,
+    "ssoEnabled" : true
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "@class" : "org.apereo.cas.services.OidcRegisteredService",
+  "clientId": "keycloak",
+  "clientSecret" : "keycloak-secret",
+  "serviceId" : "http://114.115.146.36:8080/auth/realms/quickstart/broker/oidc-cas/endpoint",
+  "name" : "keycloak",
+  "id" : 10021,
+  
+  "accessStrategy" : {
+    "@class" : "org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy",
+    "enabled" : true,
+    "ssoEnabled" : true
+  }
+}
